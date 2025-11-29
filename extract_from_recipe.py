@@ -3,7 +3,10 @@ import csv
 
 def safe_get(func):
     try:
-        return str(func())
+        if func() is None:
+            return ''
+        else:
+            return str(func())
     except Exception:
         return ''
 
