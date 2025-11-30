@@ -12,7 +12,7 @@ try:
 
     sitemap_urls = []
     for sitemap in root.findall('ns:sitemap', namespace):
-        loc = sitemap   .find('ns:loc', namespace)
+        loc = sitemap.find('ns:loc', namespace)
         if loc is not None:
             sitemap_urls.append(loc.text)
 except Exception as e:
