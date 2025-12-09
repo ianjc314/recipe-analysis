@@ -3,3 +3,4 @@ generated_data/
 target/
 dbt_packages/
 logs/
+notes.md

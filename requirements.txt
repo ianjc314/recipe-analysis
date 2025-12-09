@@ -2,3 +2,4 @@ requests
 recipe-scrapers
 dbt-core
 dbt-snowflake
+pandas
